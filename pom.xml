@@ -50,6 +50,6 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/aurelien-baudet/spring-browser-detection.git</url>
+		<url>https://github.com/aurelien-baudet/spring-boot-start-browser-detection.git</url>
 	</scm>
 </project>
