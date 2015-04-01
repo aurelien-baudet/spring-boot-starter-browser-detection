@@ -19,6 +19,8 @@
 		<url>http://www.spring.io</url>
 	</organization>
 	<properties>
+		<nexus.release.url>http://nexus.devoxx.sii.fr/content/repositories/releases</nexus.release.url>
+		<nexus.snapshot.url>http://nexus.devoxx.sii.fr/content/repositories/snapshots</nexus.snapshot.url>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
 	<dependencies>
@@ -53,4 +55,18 @@
 	<scm>
 		<url>https://github.com/aurelien-baudet/spring-boot-start-browser-detection.git</url>
 	</scm>
+	
+		
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Internal Releases</name>
+			<url>${nexus.release.url}</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Internal Snapshots</name>
+			<url>${nexus.snapshot.url}</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
