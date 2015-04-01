@@ -3,6 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.abaudet.spring.boot</groupId>
 	<artifactId>spring-boot-starter-browser-detection</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -40,7 +41,7 @@
 		<dependency>
 			<groupId>fr.abaudet.spring</groupId>
 			<artifactId>spring-browser-detection</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 
