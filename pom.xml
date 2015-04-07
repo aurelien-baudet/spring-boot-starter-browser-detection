@@ -20,8 +20,8 @@
 		<url>http://www.spring.io</url>
 	</organization>
 	<properties>
-		<nexus.release.url>http://nexus.devoxx.sii.fr/content/repositories/releases</nexus.release.url>
-		<nexus.snapshot.url>http://nexus.devoxx.sii.fr/content/repositories/snapshots</nexus.snapshot.url>
+		<nexus.release.url>http://nexus.devoxx.sii-ouest.fr/content/repositories/releases</nexus.release.url>
+		<nexus.snapshot.url>http://nexus.devoxx.sii-ouest.fr/content/repositories/snapshots</nexus.snapshot.url>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
 	<dependencies>
